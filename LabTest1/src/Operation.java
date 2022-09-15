@@ -4,7 +4,7 @@ public class Operation {
 	public static void main(String[] args) {
 		int n1=8;
 		int n2=4;
-		char operator='%';
+		char operator='*';
 		
 		switch(operator)
 		{
