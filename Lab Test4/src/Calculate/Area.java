@@ -13,13 +13,13 @@ public class Area implements Shape{
 	@Override
 	public int CircleArea(int radius) {                         // to print area of circle
 		
-		return (22/7)*radius^2;
+		return ((22/7)*(radius*radius));
 	}
 
 
 	@Override 
 	public int SquareArea(int side) {
-		return side^2;
+		return (side*side);
 	
 		
 	}
